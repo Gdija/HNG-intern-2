@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Irish+Grover&display=swap");
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+.banner-img {
+  background-image: url(../Assets/images/banner.jpg);
+  width: 100%;
+  height: 100vh;
+  min-height: 300%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 4rem;
+  left: 0;
+  margin-bottom: 40px;
+}
+.content {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  box-sizing: border-box
+}
+.banner-txt h1{
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 10px;
+    display: flex;
+    font-size: 59px;
+    font-family: inter;
+    font-weight: 700;
+    line-height: 82px;
+    text-align: center;
+    align-content: center;
+}
+
+@media (max-width: 768px) {
+    .banner-img {
+      padding-top: 50px; 
+    }
+  }

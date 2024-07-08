@@ -1,55 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Irish+Grover&display=swap");
 * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    padding-top: 3rem;
-  }
-  .nav {
-    top: 0;
-    background: rgba(15, 58, 63, 1); /* Color Theme Swatches in Hex */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    padding: 0 1rem;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-  }
-  
-  .navbar-links-container ul {
-    padding: 0;
-    margin: 0;
-    margin-top: 10px;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .nav-logo-container {
-    padding: 0;
-    margin: 0;
-  }
-  .site-title {
-    padding: 0;
-    margin: 0;
-    font-family: Irish Grover;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-  }
-  .navbar-links-container a {
-    color: inherit;
-    list-style: none;
-    text-decoration: none;
-  }
-  .navbar-links-container li:hover {
-    color: blueviolet;
-  }
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  /* padding-top: 3rem; */
+}
+.nav {
+  top: 0;
+  background-color: rgba(253, 253, 253, 1);
+  /* color: white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 2rem; */
+  padding: 2.5rem;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 999;
+}
+
+.navbar-links-container ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-logo-container {
+  padding: 0;
+  margin: 0;
+}
+.site-title {
+  padding: 6rem;
+  /* margin: 60px; */
+  font-family: Irish Grover;
+  font-size: 39.29px;
+  font-weight: 400;
+  line-height: 47.5px;
+  letter-spacing: -0.51px;
+  text-decoration: none;
+  background: linear-gradient(281.26deg, #270096 -23.71%, #ea00b7 112.27%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.icon-main{
+  display: inline-block;
+  position: relative;
+}
+.icon-main .icon {
+  font-size: 20px;
+  background: linear-gradient(to left,  #ea0087, #270096,);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  padding-top: 2px;
+  padding-left: 0.6rem;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.icon-main::before{
+  content: '';
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: -7px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(245, 245, 245, 1);
+  z-index: 0;
+  border-radius: 25%;
+}
+
+.icon-main .icon path {
+  fill: url(#icon-gradient) #ea0087; /* Fallback color */
+}
+
+
+.navbar-links-container a {
+  color: rgba(130, 130, 130, 1);
+  font-family: inter;
+  font-weight: 500;
+  size: 18px;
+  line-height: 21.78px;
+  list-style: none;
+  text-decoration: none;
+}
