@@ -85,16 +85,22 @@ body {
 }
 
 .icon-main .icon path {
-  fill: url(#icon-gradient) #ea0087; /* Fallback color */
+  fill: url(#icon-gradient) #ea0087;
 }
 
 
 .navbar-links-container a {
-  color: rgba(130, 130, 130, 1);
+  /* color: rgba(130, 130, 130, 1); */
+  color: #270096;
   font-family: inter;
   font-weight: 500;
-  size: 18px;
+  font-size: 18px;
   line-height: 21.78px;
   list-style: none;
   text-decoration: none;
+}
+@media (max-width: 480px){
+  .navbar-links-container a{
+      margin-top: 10px;
+  }
 }
