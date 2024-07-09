@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         irish: ['Irish Grover'],
+        inter: ['Inter'],
       },
     },
   },
