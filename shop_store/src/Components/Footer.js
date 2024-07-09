@@ -134,13 +134,13 @@ function Footer() {
               </h2>
               <ul className="text-white  text-base font-inter font-light">
                 <li className="mb-4">
-                  <a href="" className="hover:underline">
+                  <a href="/" className="hover:underline">
                     Home
                   </a>
                 </li>
                 <li className="mb-4">
                   <a
-                    href=""
+                    href="#"
                     className="hover:underline"
                   >
                     About
@@ -148,7 +148,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#"
                     className="hover:underline"
                   >
                     Contact
@@ -163,9 +163,11 @@ function Footer() {
               <div className="bg-white w-28 flex space-x-4">
                 <img 
                 src={appImg}
+                alt="app store"
                 />
                 <img 
                 src={ggleImg}
+                alt="google store"
                 />
               </div>
             </div>

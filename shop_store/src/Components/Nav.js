@@ -38,6 +38,14 @@ function Nav() {
               Contact
             </Link>
           </li>
+          <li>
+            <Link
+              to="/checkout"
+              className="site-navitem1 font-lg hover:font-xl hover:text-purple-700"
+            >
+              Checkout
+            </Link>
+          </li>
           {/* <li className="icon-main">
             <FontAwesomeIcon icon={faHeart} className="icon" />
           </li> */}
