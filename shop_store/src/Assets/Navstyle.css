@@ -90,8 +90,7 @@ body {
 
 
 .navbar-links-container a {
-  /* color: rgba(130, 130, 130, 1); */
-  color:#ea0087;
+  color: rgba(130, 130, 130, 1);
   font-family: inter;
   font-weight: 500;
   font-size: 18px;
@@ -100,7 +99,16 @@ body {
   text-decoration: none;
 }
 @media (max-width: 480px){
-  .navbar-links-container a{
-      margin-top: 10px;
+  .site-title{
+    font-size: 20px;
+    padding: 3rem;
+    line-height: 20px;
+    letter-spacing: -0.51px;
   }
+  .navbar-links-container ul{
+    margin-right: 11rem;
+  }
+  .navbar-links-container a{
+    font-size: 15px;
+    }
 }

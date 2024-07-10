@@ -1,6 +1,31 @@
-.hero{
-    background: linear-gradient(270.45deg, rgba(0, 42, 72, 0.1) 0.39%, #002A48 95.68%);
-padding-bottom: 65px;
-height: 300px;
-
+.hero {
+  background: linear-gradient(270.45deg,rgba(0, 42, 72, 0.1) 0.39%,#002a48 95.68%
+  );
+  padding-bottom: 65px;
+  height: 300px;
 }
+@media (max-width: 480px){
+    .img-hero{
+        width: 500px;
+
+    }
+    .hero{
+        /* background-image: url('../Assets/images/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background: linear-gradient(to left,rgba(0, 42, 72, 0.1) 0.39%,#002a48 95.68%);
+        width: 400px;
+    }
+    .hero h1{
+        margin-top: 2rem;
+    }
+    .hero p{
+        text-align: center;
+        margin-right: 5rem;
+    }
+    .search{
+        width: 50%;
+        margin-left: 20px;
+    }
+}
+

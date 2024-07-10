@@ -14,14 +14,14 @@ function Nav() {
       </a>
       <div className="navbar-links-container">
         <ul>
-          <li>
+          {/* <li>
             <Link
               to="#"
               className="site-navitem1 font-lg hover:font-xl hover:text-purple-700"
             >
               About
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/"
@@ -30,14 +30,14 @@ function Nav() {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="#"
               className="site-navitem1 font-lg hover:font-xl hover:text-purple-700"
             >
               Contact
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/checkout"
