@@ -61,7 +61,7 @@ function Checkout() {
               </div>
             </form>
           </div>
-          <div className="order-content rounded-md lg:w-1/3 md:pt-10 mb-2 sm:w-2/3">
+          <div className="order-content rounded-md lg:w-1/3 md:pt-10 mb-2 sm:w-2/3 md:w-screen md:mx-12">
             <h3 className="text-left ml-10 text-lg font-inter font-bold text-white">
               Order Sumary
             </h3>

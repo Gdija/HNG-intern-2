@@ -14,7 +14,7 @@ function Footer() {
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a
                 href="#"
-                className="pr-4 text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="pr-4 text-gray-500 hover:text-gray-900"
               >
                 <svg
                   className="w-4 h-4"
@@ -33,7 +33,7 @@ function Footer() {
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-900"
               >
                 <svg
                   className="w-4 h-4"
@@ -52,7 +52,7 @@ function Footer() {
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+                className="text-gray-500 hover:text-gray-900 ms-5"
               >
                 <svg
                   className="w-4 h-4"
@@ -71,7 +71,7 @@ function Footer() {
               </a>
               <a
                 href="#"
-                className="pl-4 text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="pl-4 text-gray-500 hover:text-gray-900"
               >
                 <svg
                   className="w-4 h-4"
@@ -90,7 +90,7 @@ function Footer() {
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+                className="text-gray-500 hover:text-gray-900 ms-5"
               >
                 <svg
                   className="w-4 h-4"
@@ -160,14 +160,16 @@ function Footer() {
               <h2 className="mb-6 text-xl font-inter font-bold text-white">
               Download Jules Grocies Mobile App
               </h2>
-              <div className="bg-white w-28 flex space-x-4">
+              <div className="flex flex-col sm:flex-row sm:justify-around sm:space-x-4 space-y-4 sm:space-y-0">
                 <img 
                 src={appImg}
                 alt="app store"
+                className="w-28 mx-auto sm:mx-0"
                 />
                 <img 
                 src={ggleImg}
                 alt="google store"
+                className="w-28 mx-auto sm:mx-0"
                 />
               </div>
             </div>
